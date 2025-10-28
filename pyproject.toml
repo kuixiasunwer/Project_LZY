@@ -1,0 +1,37 @@
+[project]
+name = "sais-newenergy"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "dask>=2025.5.1",
+    "h5netcdf>=1.6.1",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.3",
+    "netcdf4>=1.7.2",
+    "notebook>=7.4.2",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "plotly>=6.1.2",
+    "scikit-learn>=1.6.1",
+    "swanlab>=0.6.8",
+    "torch>=2.7.0",
+    "wandb>=0.20.1",
+    "xarray>=2025.4.0",
+]
+
+[tool.uv.pip]
+index-url = "http://mirrors.aliyun.com/pypi/simple/"
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+]
+
+[tool.cmake]
+define = { USE_CUDA = "ON" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

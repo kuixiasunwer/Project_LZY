@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/data/Input-test" />
+      <excludeFolder url="file://$MODULE_DIR$/data/Input-train" />
+      <excludeFolder url="file://$MODULE_DIR$/data/log" />
+      <excludeFolder url="file://$MODULE_DIR$/submit-image-demo" />
+      <excludeFolder url="file://$MODULE_DIR$/tianchi_docker" />
+      <excludeFolder url="file://$MODULE_DIR$/docker/app/data" />
+      <excludeFolder url="file://$MODULE_DIR$/docker/data" />
+      <excludeFolder url="file://$MODULE_DIR$/data/docker_label" />
+      <excludeFolder url="file://$MODULE_DIR$/models/lightgbm" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.12 virtualenv at ~/PycharmProjects/Sais-NewEnergy-Docker-Version/.venv" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

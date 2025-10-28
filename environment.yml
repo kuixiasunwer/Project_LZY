@@ -1,0 +1,24 @@
+name: power_project
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - xarray
+  - scikit-learn
+  - matplotlib
+  - lightgbm
+  - wandb
+  - notebook
+  - netcdf4
+  - pip:
+    - swanlab==0.6.8
+    - swanboard==0.1.8b1
+    - swankit==0.2.4
